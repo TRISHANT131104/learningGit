@@ -22,8 +22,22 @@ git commit -a -m -> skips staging area it directly adds and commits the file at 
 touch filename -> adds a file with that filename in the repo
 git rm -> deletes file the file from both staging area and working repo
 git rm --cached -> removes file from stagged area but still keeps it in ur working repo
+
+
 touch gitignore -> create a git ignore file in which whatever file name you write is ignored by git
 if you want to ignore a specific file with that name and nothing else you can add the relative path of the file wrt gitignore
 if you want to ignore all files with a particular extension then use star before that extenstion (eg: *.html)
 
+
+git branch BRANCHNAME -> add a new branch with that BRANCHNAME
+git checkout BRANCHNAME -> takes you to that branch
+git merge BRANCHNAME -> merges your BRANCHNAME branch to your current branch
+git checkout -b BRANCHNAME -> creates a branch aswell as takes you to that branch
+
+git remote add origin https..... -> connects or adds a remote repository to git
+git remote -> lists all the remote repositories
+git remote -v -> lists all the remote repositories with their paths
+git push origin master 
+git remote set-url origin -> changes the url of the remote repository
+git push -u origin BRANCHNAME -> adds the branch to the remote repo
 

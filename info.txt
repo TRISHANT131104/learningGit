@@ -15,3 +15,6 @@ git checkout filename-> to change the file into the previous commited instance i
 ls -lart -> shows all the hidden items in the repo
 git checkout -f -> to change all the files like in the previous commit
 git log -> gives your identity and also gives all the commits done by you
+git log -p -NUMBER  -> gives you last "NUMBER" of commits done by you
+git diff -> compares your present directory with stagged area
+git diff --stagged --> compares yours staging area with your last commit

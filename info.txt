@@ -17,4 +17,13 @@ git checkout -f -> to change all the files like in the previous commit
 git log -> gives your identity and also gives all the commits done by you
 git log -p -NUMBER  -> gives you last "NUMBER" of commits done by you
 git diff -> compares your present directory with stagged area
-git diff --stagged --> compares yours staging area with your last commit
+git diff --stagged -> compares yours staging area with your last commit
+git commit -a -m -> skips staging area it directly adds and commits the file at the same time, usually not recommended when doing group projects
+touch filename -> adds a file with that filename in the repo
+git rm -> deletes file the file from both staging area and working repo
+git rm --cached -> removes file from stagged area but still keeps it in ur working repo
+touch gitignore -> create a git ignore file in which whatever file name you write is ignored by git
+if you want to ignore a specific file with that name and nothing else you can add the relative path of the file wrt gitignore
+if you want to ignore all files with a particular extension then use star before that extenstion (eg: *.html)
+
+

@@ -1,0 +1,17 @@
+git init -> initiallises repo
+git add filename -> adds a file to stagging area
+git add -A -> adds all files in the repo to stagging area
+git commit --> takes a snapshot of that particular instance of a repo
+
+UNTRACKED           UNMODIFIED           MODIFIED            STAGED
+    -------------------(adding a file)--------------------------> 
+                         ----(edit a file)--->
+                                            --(stage the file)-->
+                         <----------(commit)---------------------
+
+git commit directly doesn't work since it needs a message to go with it hence the command is (git commit -m "YOUR MESSAGE")
+git status -> to check status of repo
+git checkout filename-> to change the file into the previous commited instance if anything goes wrong
+ls -lart -> shows all the hidden items in the repo
+git checkout -f -> to change all the files like in the previous commit
+git log -> gives your identity and also gives all the commits done by you
